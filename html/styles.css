@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 20px;
+  background-color: #282828;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  text-align: center;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.header h1 {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+.header h2 {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #fdd835;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.left img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.right {
+  width: 100%;
+  max-width: 600px;
+}
+
+.livestream {
+  text-align: center;
+}
+
+.livestream h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.time {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.time-hour {
+  font-size: 1.5em;
+}
+
+.steps {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.steps h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.step {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.step-number {
+  background-color: #fdd835;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.step-description {
+  align-self: center;
+}
+
+.highlight {
+  color: #fdd835;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .time {
+    flex-direction: column;
+  }
+
+  .step {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .step-number,
+  .step-description {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,70 @@
+doctype html
+// Khai báo html
+html
+    head
+        // Những cái meta
+        meta(charset='UTF-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        // Câu lệnh hiển thị giao diện dành cho điện thoại di động và máy tính bảng
+        title GiuaKi
+        link(rel='preconnect', href='https://fonts.googleapis.com')
+        link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+        link(href='https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap', rel='stylesheet')
+        link(rel='stylesheet', href='../CSS/wed10.css')
+    body
+    .top 
+        .top-title 
+            img.imag-title(src='../imag/img1.png', alt ='start')
+        .top-menu
+            ul.ulTop  
+                li.trangchu 
+                    a(href='http://127.0.0.1:5500/pug/wed10.html') TRANG CHỦ
+                li.ttts 
+                    a(href='http://127.0.0.1:5500/pug/demo.html') THÔNG TIN TUYỂN SINH
+                li.ttcn 
+                    a(href='') THÔNG TIN CÁ NHÂN
+                li.ctdd 
+                    a(href='') CHƯƠNG TRÌNH ĐÀO TẠO
+                li.ctw 
+                    a(href='') CHƯƠNG TRÌNH WED
+                li.lienhe   
+                    a(href='') LIÊN HỆ
+    .main 
+        .main-left 
+            .main-left-in 
+                .main-left-in-title
+                    span.inTitle Liên kết trong 
+                .main-left-in-menu
+                    ul.ulLeftIN
+                        li.liINTTTS
+                            a.inTTTS(href='') Thông tin tuyển sinh
+                        li.liINDKTT
+                            a.inDKTT(href='') Đăng kí thông tin
+                        li.liINCTDT
+                            a.inCTDD(href='') Chương trình đào tạo
+                        li.liINCTW
+                            a.inCTW(href='') Chương trình WED
+                        li.liINLH
+                            a.inLH(href='') Liên hệ   
+            .main-left-out
+                .main-left-out-title
+                    span.outTitle Liên kết ngoài
+                .main-left-out-menu
+                    ul.ulLeftOUT
+                        li.liOUTVH
+                            a.outVH(href='') ĐH Việt Hàn
+                        li.liOUTNN
+                            a.outNN(href='') ĐH Ngoại Ngữ
+                        li.liOUTKT
+                            a.outKT(href='') ĐH Kinh Tế
+                        li.liOUTBK
+                            a.outBK(href='') ĐH Bách khoa
+        .main-right
+            .main-right-top
+                span.title-ttts THÔNG TIN TUYỂN SINH ĐẠI HỌC VIỆT HÀN 2021
+            .main-right-bottom
+                img.imag-ttts(src='../imag/TTTSmain.png')
+    .bottom
+        span.dhdn Đại học Đà Nẵng
+        span.banquyen Bản quyền thuộc Trường Đại học Công nghệ thông tin và Truyền thông Việt Hàn Đại học Đà Nẵng
+        span.sdt Số điện thoại : 090123456

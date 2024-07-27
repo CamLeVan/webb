@@ -1,0 +1,30 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: antiquewhite;
+  padding: 40px 24px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+/* .gem-item {
+  min-width: 100%;
+  max-width: 100%;
+} */
+.ge {
+  display: block;
+  min-width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+.gem-list {
+  display: grid;
+  grid-template-rows: 300px 300px;
+  grid-template-columns: repeat(3, 1);
+}

@@ -1,0 +1,201 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: antiquewhite;
+  padding: 40px 24px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.Tour-list-companer {
+  padding-top: 30px;
+  gap: 30px;
+  row-gap: 30px;
+  column-gap: 30px;
+  margin-bottom: 30px;
+}
+.Title {
+  padding-top: 40px;
+  color: #3b71fe;
+  font-size: 40px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+}
+.Tour {
+  width: calc(33.33% - 30px);
+  height: auto;
+  background-color: #d3ddf0;
+  border-radius: 10px;
+  margin-left: 30px;
+  word-break: break-all;
+  /* overflow: hidden; */
+}
+.tour-content {
+  /*padding : top right botton left*/
+  padding: 20px 20px 14px 20px;
+}
+.heading {
+  margin-top: 30px;
+}
+.imag-gem {
+  display: block;
+  min-width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+.Tour-title {
+  margin-bottom: 10px;
+  color: #23262f;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.556; /*tỉ lệ với font-size*/
+}
+.gem-list {
+  display: grid;
+  grid-template-rows: 300px 300px;
+  grid-template-columns: repeat(3, 1);
+}
+.Tour-rating {
+  margin-bottom: 20px;
+  color: #3b3e44;
+}
+.tour-review-count,
+.tour-duration {
+  color: #3b3e44;
+}
+.tour-button {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  padding: 8px 17px;
+  background: #3b71fe;
+  text-decoration: none;
+  border-radius: 8px;
+  line-height: 17px;
+  display: inline-block;
+}
+.tour-top {
+  position: relative;
+}
+.Tour-price {
+  background: rgb(54, 57, 69, 0.8);
+  padding: 5px 16px;
+  line-height: 20px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #fcfcfd;
+  display: inline-block;
+  position: absolute;
+  top: 24px;
+  left: 30px;
+}
+.Tour-imag {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  height: 239px;
+  object-fit: cover;
+  display: block; /*để xóa phần viền dư thừa mà mỗi ảnh nào cũng có*/
+}
+
+.Tour-list {
+  margin-left: -30px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  flex-wrap: wrap;
+  justify-content: flex-start; /*<mặc định>bố trí lauout*/
+  row-gap: 30px;
+}
+.Tour-list-companer {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.Tour-rating {
+  display: flex;
+  justify-content: space-between;
+}
+.tour-review {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; /*căn chỉnh hàng, vị trí*/
+  column-gap: 11px;
+}
+@media screen {
+}
+.thisinh {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+.round {
+  padding: 30px;
+  padding: 30px;
+  width: 100%;
+  height: 200px;
+  margin-left: -30px;
+}
+.round-top-school {
+  display: inline;
+  width: 450px;
+  display: flex;
+  align-items: center; /* căn giữa theo chiều dọc */
+  justify-content: center; /* căn giữa theo chiều ngang */
+  height: 100%;
+  font-size: 18px;
+  font-weight: 800;
+  color: #0233ad;
+}
+.round-top-text {
+  display: inline;
+  display: flex;
+  align-items: center; /* căn giữa theo chiều dọc */
+  justify-content: center; /* căn giữa theo chiều ngang */
+  -fx-alignment: center;
+  width: 300px;
+}
+/* .round-top-thisinh {
+font-size: 15px;
+width: 30%;
+} */
+.round-top {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+.tenthisinh {
+  display: inline;
+}
+.round-botton {
+  margin-top: 40px;
+}
+.thisinh {
+  display: inline-block;
+}
+.tenthisinh {
+  display: inline-block;
+}
+.thisinh-name {
+  font-size: 16px;
+}
+.thisinh-name-demo {
+  font-size: 15px;
+}
+.themnhanh {
+  font-size: 15px;
+  width: 300px;
+}
+.nickName {
+  width: 250px;
+  display: flex;
+  align-items: center;
+}

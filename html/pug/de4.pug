@@ -1,0 +1,54 @@
+doctype html
+// Khai báo html
+html
+    head
+        // Những cái meta
+        meta(charset='UTF-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        // Câu lệnh hiển thị giao diện dành cho điện thoại di động và máy tính bảng
+        title DAOTAO
+        link(rel='preconnect', href='https://fonts.googleapis.com')
+        link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+        link(href='https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap', rel='stylesheet')
+        link(rel='stylesheet', href='../CSS/de4.css')
+    body
+        .container 
+            h2.heading Hidden gems in Bangkok
+            .gem-list   
+                each link  in ['https://plus.unsplash.com/premium_photo-1675643444417-a8ed81a4a3d8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8' , 'https://images.unsplash.com/photo-1713107102323-00cd32c4b7df?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8' ,  'https://images.unsplash.com/photo-1686715692509-8cb69d40d081?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHx8' , 'https://images.unsplash.com/photo-1713350471498-243d2c5dff3c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHx8' ,  'https://images.unsplash.com/photo-1713101888005-49e61c91891b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8']
+                    .gem-item 
+                        img.imag-gem(src=link , alt='oke')
+            a.button(href='https://www.youtube.com/watch?v=A8C71-mSkAk&t=866s') Explore All 
+        footer.footer 
+            .footer-container
+                .footer-top
+                    .footer-columns
+                        .footer-column
+                            a.footer-logo(href="/")
+                                img(src="../De4/flag.gif" alt ="...")
+                            p.footer-desc  Website đã trở thành nền tảng tương tác mạnh mẽ với sự phát triển của các công nghệ như JavaScript, AJAX, và HTML5
+                            form.subscribe(action="" autocomplete)
+                                input.subscribe-email(type="email" placeholder="Enter your email")
+                                button.subscribe-button(type="submit")
+                                    img.subscribe-imag(src="../imag/star.png" alt="button")
+                        .footer-column
+                            h4.footer-heading Services
+                            ul.footer-links
+                                each val in ["trip Planner", "Tour Planning","Tour Guide","Tour Package","Tour advice"]
+                                    li.footer-item
+                                        a.footer-link(href="#")= val
+                        .footer-column
+                            h4.footer-heading Services
+                            ul.footer-links
+                                each val in ["trip Planner", "Tour Planning","Tour Guide","Tour Package","Tour advice"]
+                                    li.footer-item
+                                        a.footer-link(href="#")= val
+                        .footer-column
+                            h4.footer-heading Services
+                            ul.footer-links
+                                each val in ["trip Planner", "Tour Planning","Tour Guide","Tour Package","Tour advice"] 
+                                    li.footer-item
+                                        a.footer-link(href="#")= val                                                
+                .footer-bottom 
+                    p.footer-bottom-copyright Website đã trở thành nền tảng tương tác mạnh mẽ với sự phát triển của các công nghệ như JavaScript, AJAX, và HTML5, cho phép người dùng tương tác nhiều hơn với nội dung và với nhau thông qua các ứng dụng web và mạng xã hội. 
+

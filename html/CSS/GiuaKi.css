@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #e5ebe8;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  display: inline-block;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+li a {
+  text-decoration: none; /* Xóa dấu gạch dưới cho tất cả các liên kết */
+  border-style: solid;
+}
+.page-Top,
+.page-main,
+.page-bottom {
+  display: inline-block; /* Hiển thị các phần tử là inline-block */
+  width: 100%; /* Chiếm toàn bộ chiều rộng của container */
+}
+.page-top-menu {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.page-Top {
+  background-color: rgb(31, 52, 233);
+  position: relative;
+  height: 100px; /* Đặt chiều cao cho .page-Top */
+}
+
+.page-main {
+  background-color: aquamarine;
+  height: 400px; /* Đặt chiều cao cho .page-main */
+}
+
+.page-bottom {
+  background-color: rgb(0, 255, 170);
+  height: 100px; /* Đặt chiều cao cho .page-bottom */
+}
+.trangchu,
+.lienhe {
+  width: 12.5%;
+}
+.thongtintuyensinh,
+.thongtincanhan,
+.chuongtrinhdaotao,
+.chuongtrinhwed {
+  width: 18.75%;
+  border-width: 0.5;
+  border-color: rgb(59, 253, 253);
+}
+.page-main {
+  background-color: aquamarine;
+  height: 400px;
+  display: flex; /* Sử dụng flexbox để quản lý layout */
+  row-gap: 10px;
+}
+
+.page-main-left {
+  width: 50%;
+  background-color: darkorchid;
+  margin: 28px 28px 28px 28px;
+}
+
+.page-main-right {
+  width: 50%;
+  background-color: chocolate;
+  display: flex; /* Sử dụng flexbox */
+  flex-direction: column; /* Sắp xếp theo cột */
+  justify-content: space-between; /* Đảm bảo chúng nằm ở hai đầu */
+}
+
+.page-main-right-bottom {
+  width: 90%;
+  height: 45%;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  background-color: #e5ebe8;
+  margin-top: 30px; /* Khoảng cách giữa .page-main-right-top và .page-main-right-bottom */
+}
+
+.page-main-right-top {
+  width: 90%;
+  height: 45%;
+  background-color: greenyellow;
+  margin-left: 30px;
+  margin-top: 30px;
+  /* Khoảng cách giữa .
+  ;page-main-right-top và .page-main-right-bottom */
+}

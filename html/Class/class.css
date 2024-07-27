@@ -1,0 +1,13 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: antiquewhite;
+  padding: 40px 24px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.khung {
+  background-color: aliceblue;
+}

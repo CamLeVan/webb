@@ -1,0 +1,348 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #45c484;
+}
+.top {
+  width: 100%;
+  height: 150px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+}
+.login-form {
+  border: 3px solid black;
+  width: 30rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* padding: 2rem 3rem; */
+}
+.email {
+  margin-bottom: 23px;
+}
+.login-form input {
+  border: 1px solid black;
+  margin: 19px 9px;
+  padding: 4px;
+}
+.main {
+  width: 100%;
+  display: flex;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+}
+.bottom {
+  width: 100%;
+  height: 60px;
+  background-color: blue;
+}
+.imag-title {
+  width: 80%;
+  height: 80%;
+}
+.main-left {
+  width: 25%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.main-right {
+  width: 75%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.ulTop {
+  list-style-type: none;
+  padding: 0;
+
+  margin: 0;
+  background-color: blue;
+  position: absolute;
+
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  /* text-align: center; /* Căn giữa theo chiều ngang */
+  line-height: 50px;
+}
+
+.top-title {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  right: 0;
+}
+.imag-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.top-menu {
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+}
+.trangchu,
+.ttts,
+.ttcn,
+.ctdd,
+.ctw,
+.hoptac,
+.lienhe {
+  display: inline-block;
+  width: auto;
+
+  height: 100%;
+  color: #fff;
+
+  vertical-align: middle; /* Đảm bảo căn giữa theo chiều dọc */
+}
+.trangchu:hover,
+.ttts:hover,
+.ttcn:hover,
+.ctdd:hover,
+.ctw:hover,
+.hoptac:hover,
+.lienhe:hover {
+  background-color: rgb(245, 245, 245);
+}
+a {
+  text-decoration: none;
+  font-weight: 500;
+}
+.trangchu,
+.lienhe {
+  width: 10%;
+}
+.title-ttts {
+  color: blue;
+  font-size: 20px;
+  font-weight: 1000;
+}
+.ttts,
+.ttcn,
+.ctdd,
+.ctw,
+.hoptac {
+  width: 10%;
+}
+
+.main-left {
+  display: flex;
+  flex-direction: column;
+}
+.main-left-in {
+  width: 100%;
+  height: 40%;
+}
+.main-left-out {
+  width: 100%;
+
+  height: 60%;
+}
+.outBK:hover,
+.outKT:hover,
+.outKT:hover,
+.outVH:hover,
+.inTTTS:hover,
+.inDKTT:hover,
+.inCTDD:hover,
+.inCTW:hover,
+.inLH:hover {
+  color: blue;
+}
+.ctdd {
+  background-color: #fff;
+}
+.inTitle {
+  font-weight: 800;
+  color: red;
+  font-size: 17px;
+}
+.main-left-in-title {
+  width: 100%;
+  height: 28.6%;
+  display: flex;
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+}
+.main-left-out-title {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.outTitle {
+  font-weight: 900;
+  color: red;
+  font-size: 17px;
+}
+.ulLeftOUT {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.main-left-out-menu {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.outVH,
+.outNN,
+.outBK,
+.outKT {
+  width: 100%;
+  height: 100%;
+}
+.liOUTVH,
+.liOUTNN,
+.liOUTKT,
+.liOUTBK {
+  display: inline-block;
+  width: 100%;
+  height: 17%;
+}
+.main-left-in-menu {
+  width: 100%;
+  height: 100%;
+}
+.liINTTTS,
+.liINDKTT,
+.liINCTDT,
+.liINCTW,
+.liINLH {
+  width: 100%;
+  height: 14%;
+}
+.ulLeftIN {
+  width: 100%;
+  height: 100%;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dhdn,
+.banquyen,
+.sdt {
+  display: inline-block;
+}
+/* .main-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.main-right-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+}
+.title-ttts {
+  font-size: 20px;
+
+  font-weight: 900;
+}
+
+.main-right-bottom {
+  width: 95%;
+  display: flex;
+  height: 80%;
+  margin-left: 2.5%;
+}
+.imag-ttts {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* Định dạng phần tử trang chủ */
+li.trangchu {
+  font-weight: bold;
+}
+
+/* Định dạng phần tử trang chủ là một liền kề */
+li.trangchu > a {
+  text-decoration: none;
+  color: blue;
+}
+
+/* Định dạng phần tử menu dọc */
+ul.menudoc {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Định dạng các mục trong menu dọc */
+ul.menudoc > li {
+  margin-bottom: 10px;
+}
+
+/* Định dạng các liên kết trong menu dọc */
+ul.menudoc > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Định dạng các mục trong menu ngang */
+ul.menudoc ul.menungang > li {
+  margin-left: 20px;
+}
+
+/* Định dạng các liên kết trong menu ngang */
+ul.menudoc ul.menungang > li > a {
+  text-decoration: none;
+  color: green;
+}
+
+/* Định dạng các liên kết trong menu ngang con */
+ul.menudoc ul.menungang ul > li > a {
+  color: red;
+}
+.radio-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.anh1 {
+  width: 100%;
+  position: relative;
+  height: 33.33%;
+}
+.anh2 {
+  width: 100%;
+  position: relative;
+  height: 33.33%;
+}
+.anh3 {
+  width: 100%;
+  position: relative;
+  height: 33.33%;
+}
+.img1 {
+  width: 80%;
+  position: absolute;
+  height: 55%;
+  right: 0;
+}
+.img2 {
+  position: absolute;
+  width: 80%;
+  height: 55%;
+  right: 0;
+}
+.img3 {
+  width: 80%;
+  position: absolute;
+  height: 55%;
+  right: 0;
+}

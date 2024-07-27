@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #d3e2da;
+}
+.Tour-item-list {
+  padding-top: 35px;
+  padding-left: 35px;
+  padding-right: 35px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 1fr 1fr 1fr 1fr; /*tỉ lệ 2 cột- chia đều sẵn luôn*/
+  grid-template-columns: repeat(
+    4,
+    1fr
+  ); /*Viết gọn- nh cách dùng khác nhau vd : 200px repeat(2,1fr) 300px
+  + khi làm như vậy thì mỗi hàng sẽ mặc định chia ra 4 collum bằng nhau => thêm cột thì sẽ tự động xuống hàng*/
+  gap: 30px;
+}
+.tour-bangkok {
+  font-weight: 600;
+  font-size: 30px;
+  padding-left: 35px;
+  line-height: 45px;
+  background-color: #353945;
+}
+.tour-img {
+  /* width: 290px; */
+  height: 285px;
+  position: relative;
+  border-radius: 10px;
+}
+.tour-imag {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.tour-button {
+  font-weight: 500;
+  font-size: 12px;
+  position: absolute;
+  border-radius: 100em;
+  right: 20px;
+  bottom: 0;
+  background-color: aqua;
+  width: 54px;
+  height: 15px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  transform: translateY(50%);
+}
+.tour-conten {
+  width: 173px;
+  height: 78px;
+  position: relative;
+  padding-top: 11px;
+}
+.tour-time {
+  font-family: Inter;
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 11px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  right: 36px;
+  top: 11px;
+}
+.tour-start {
+  display: inline-block;
+}
+.tour-review {
+  display: inline-block;
+  font-weight: 500;
+  size: 12px;
+  line-height: 21px;
+  color: #4f4f4f;
+}
+.tour-title {
+  position: absolute;
+  font-weight: 500;
+  font-size: 15px;
+  bottom: 31px;
+  left: 20px;
+}
+.tour-Evaluate {
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.heading {
+  margin-top: 70px;
+  font-weight: 600;
+  font-size: 30px;
+  padding-left: 35px;
+  line-height: 45px;
+  color: #353945;
+}
+.heading-content-imag1 {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+}
+.heading-content-imag2 {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+}
+.heading-content-imag3 {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+}
+.content-notes {
+  font-family: Inter;
+  font-size: 9px;
+  font-weight: 900;
+  line-height: 11px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(255, 253, 253);
+}
+.content-title {
+  color: rgb(255, 247, 247);
+  font-weight: 800;
+  line-height: 11px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.heading-content {
+  position: absolute;
+}
+.heading {
+}

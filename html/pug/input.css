@@ -1,0 +1,39 @@
+.main {
+  width: 50%;
+  height: auto;
+  background-color: aqua;
+  margin: 0 25%;
+  padding-left: 2%;
+}
+h1 {
+  text-align: center;
+}
+.divai {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.yeu_nhu {
+  display: flex;
+  flex-direction: row;
+}
+.main_bottom {
+  display: grid;
+  grid-template-columns: repeat(100px, 1fr);
+  grid-template-areas:
+    "h1 h2"
+    "h3 h4";
+}
+
+.bottom_radio:first-child {
+  grid-template-areas: h1;
+}
+.bottom_radio:nth-child(2) {
+  grid-template-areas: h2;
+}
+.bottom_radio:nth-child(3) {
+  grid-template-areas: h3;
+}
+.bottom_radio:last-child {
+  grid-template-areas: h4;
+}

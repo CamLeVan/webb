@@ -1,0 +1,15 @@
+mixin TourItem(imag , money , title)
+    .Tour
+      .tour-top
+        img.Tour-imag(src=imag, alt='Dia Danh')
+        span.Tour-price=money
+      .tour-content
+        .Tour-title=title
+        .Tour-rating
+          .tour-review
+            .tour-start
+              img(src='../imag/star.png', alt='start')
+            .tour-review-count
+              span 4.8 (12 reviews)
+          span.tour-duration Duration: 9 hours
+        a.tour-button(href='https://www.figma.com/file/FwoL8iJqyCrNimH9EwqWEr/trip-planner?type=design&node-id=983-57868&mode=design&t=DxMpYmr6m3HeQEL3-0', target='_blank', rel='noopener noreferrer') Tours Price $61
